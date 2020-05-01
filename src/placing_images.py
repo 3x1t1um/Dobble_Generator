@@ -16,7 +16,20 @@ def generate_image_from_list(list_of_card):
     images_list = []
 
     for image in os.listdir("./images/"):
-        images_list.append("./images/"+image)
+        if image[-3:] == 'png':
+            images_list.append("./images/"+image)
+        elif image[-3:] == 'gif':
+            images_list.append("./images/"+image)
+        elif image[-3:] == 'jpg':
+            images_list.append("./images/"+image)
+        elif image[-4:] == 'jpeg':
+            images_list.append("./images/"+image)
+        elif image[-3:] == 'BMP':
+            images_list.append("./images/"+image)
+        elif image[-4:] == 'TIFF':
+            images_list.append("./images/"+image)
+        else:
+            pass
 
     try:
         inc1 = 0
