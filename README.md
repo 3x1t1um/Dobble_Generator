@@ -17,7 +17,7 @@ The mathematical property of the generator is :
 ```
 
 In this formula (which is not that of the official dobble) the number of cards is always greater than the number of symbols per card of "+1".
-For example if the total number of symbols is 15 then:
+For example if the total number of symbols is 15 then (it's the same formula but backwards) :
 
 ```
 15 * 2 = 30 and 5 * 6 = 30
@@ -27,7 +27,7 @@ For example if the total number of symbols is 15 then:
 Or if the number of cards is 4, the number of symbols per card is "number of cards" - 1 therefore 3, then:
 
 ```
-(3 * 4) / 2 = 6 ; there are therefore 6 symbols in total on all the cards
+(3 * 4) / 2 = 6 ; there are 6 symbols in total on all the cards
 ```
 In view of this formula, certain numbers cannot be entered. For example the number 11.
 If we follow the logical sequence of (n * n + 1) / 2 then:
