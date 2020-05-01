@@ -1,6 +1,7 @@
 ## Dobble Generator
 This tool is a dobble generator. Many mathematical properties are used.
-To use it, simply enter the amount of images, put your images in the "images" folder and launch the main.py
+To use it, simply enter the amount of images, put your images in the "images" folder and launch the main.py.
+Please read "Mathematics" to understand how the generator works and how to use it.
 
 ## Table of contents
 * [Mathematics](#Mathematics)
