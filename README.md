@@ -3,11 +3,11 @@ This tool is a dobble generator. Many mathematical properties are used.
 To use it, simply enter the number of total images, put your images in the "images" folder and launch the main.py
 
 ## Table of contents
-* [mathematical](#maths)
+* [Mathematical](#maths)
 * [Exemples](#Examples)
 * [Requirements](#requirements)
 
-## mathematical
+## Mathematical
 The mathematical property of the generator is :
 
 ```
@@ -34,27 +34,20 @@ or if the number of cards is 4, the number of symbols per card is "number of car
 ## Examples
 
 ```
-py CVE-2007-2447.py 192.168.1.38 1337 192.168.1.14
+py main.py
 ```
-and on my netcat :
 
-```
-netcat -lnvp 1337
-```
-Result :
+And if I put 15 in input.
 
-netcat :
+![alt text](https://image.noelshack.com/fichiers/2020/18/5/1588336273-capture.png)
 
-![alt text](https://image.noelshack.com/fichiers/2020/17/3/1587561245-capture.png)
+and in the generate folder:
 
-and on the script:
-
-![alt text](https://image.noelshack.com/fichiers/2020/17/3/1587561439-capture.png)
+![alt text](https://image.noelshack.com/fichiers/2020/18/5/1588337191-capture.png)
 
 ## Requirements
-- mysmb
+- Pillow
 - platform
-- sys
-- os
+- datetime
 
 
