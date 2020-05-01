@@ -50,4 +50,8 @@ and in the generate folder:
 - platform
 - datetime
 
+```
+pip install -r requirements.txt
+```
+
 
