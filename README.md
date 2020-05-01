@@ -16,7 +16,7 @@ The mathematical property of the generator is :
 (number of symbols per card * number of cards) / 2 = number of total symbols on all the cards
 ```
 
-In this formula (which is not that of the official dobble) the number of cards is always greater than the number of symbols per card of "+1"
+In this formula (which is not that of the official dobble) the number of cards is always greater than the number of symbols per card of "+1".
 For example if the total number of symbols is 15 then:
 
 ```
@@ -24,7 +24,7 @@ For example if the total number of symbols is 15 then:
 5 is the number of symbols per card and 6 is the number of cards
 ```
 
-or if the number of cards is 4, the number of symbols per card is "number of cards" - 1 therefore 3, then:
+Or if the number of cards is 4, the number of symbols per card is "number of cards" - 1 therefore 3, then:
 
 ```
 (3 * 4) / 2 = 6 ; there are therefore 6 symbols in total on all the cards
@@ -40,7 +40,7 @@ If we follow the logical sequence of (n * n + 1) / 2 then:
 (5 * 6) / 2 = 15
 ```
 
-the number 11 is not in the list. This is why if you enter 11 as input, the operations will be done on the number 10. The selected number will always be below the entered number if it is not in the list
+The number 11 is not in the list. This is why if you enter 11 as input, the operations will be done on the number 10. The selected number will always be below the entered number if it is not in the list.
 
 ## Examples
 
@@ -48,11 +48,11 @@ the number 11 is not in the list. This is why if you enter 11 as input, the oper
 py main.py
 ```
 
-And if I put 15 in input.
+If I put 15 in input :
 
 ![alt text](https://image.noelshack.com/fichiers/2020/18/5/1588337747-capture.png)
 
-and in the generate folder:
+And in the generate folder:
 
 ![alt text](https://image.noelshack.com/fichiers/2020/18/5/1588337191-capture.png)
 
@@ -64,5 +64,3 @@ and in the generate folder:
 ```
 pip install -r requirements.txt
 ```
-
-
