@@ -29,7 +29,7 @@ Or if the number of cards is 4, the number of symbols per card is "number of car
 ```
 (3 * 4) / 2 = 6 ; there are 6 symbols in total on all the cards
 ```
-In view of this formula, certain numbers cannot be entered. For example the number 11.
+In view of this formula, some numbers cannot be entered. For example the number 11.
 If we follow the logical sequence of (n * n + 1) / 2 then:
 
 ```
