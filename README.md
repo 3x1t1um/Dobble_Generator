@@ -28,8 +28,18 @@ or if the number of cards is 4, the number of symbols per card is "number of car
 ```
 (3 * 4) / 2 = 6 ; there are therefore 6 symbols in total on all the cards
 ```
+In view of this formula, certain numbers cannot be entered. For example the number 11.
+If we follow the logical sequence of (n * n + 1) / 2 then:
 
+```
+(1 * 2) / 2 = 1
+(2 * 3) / 2 = 3
+(3 * 4) / 2 = 6
+(4 * 5) / 2 = 10
+(5 * 6) / 2 = 15
+```
 
+the number 11 is not in the list. This is why if you enter 11 as input, the operations will be done on the number 10. The selected number will always be below the entered number if it is not in the list
 
 ## Examples
 
