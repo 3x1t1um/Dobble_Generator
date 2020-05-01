@@ -12,6 +12,7 @@ The mathematical property of the generator is :
 
 ```
 (n * n+1) / 2 = number of total symbols on all the cards
+# which corresponds to :
 (number of symbols per card * number of cards) / 2 = number of total symbols on all the cards
 ```
 
