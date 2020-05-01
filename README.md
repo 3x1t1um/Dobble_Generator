@@ -8,7 +8,7 @@ To use it, simply enter the amount of images, put your images in the "images" fo
 * [Requirements](#requirements)
 
 ## Mathematics
-The mathematical property of the generator is :
+The main mathematical property of the generator is :
 
 ```
 (n * n+1) / 2 = number of total symbols on all the cards
