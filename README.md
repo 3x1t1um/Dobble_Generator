@@ -3,11 +3,11 @@ This tool is a dobble generator. Many mathematical properties are used.
 To use it, simply enter the number of total images, put your images in the "images" folder and launch the main.py
 
 ## Table of contents
-* [Mathematical](#maths)
+* [mathematics](#maths)
 * [Exemples](#Examples)
 * [Requirements](#requirements)
 
-## Mathematical
+## Mathematics
 The mathematical property of the generator is :
 
 ```
