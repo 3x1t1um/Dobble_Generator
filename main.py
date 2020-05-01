@@ -1,6 +1,6 @@
 from src.generate_number import *
 from src.launcher import *
-from src.placing_image import *
+from src.placing_images import *
 import sys
 
 if __name__ == '__main__':
